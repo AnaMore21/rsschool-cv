@@ -2,7 +2,7 @@
 
 ## Front-End Developer
 
-====
+---
 
 ### My contacts:
 
