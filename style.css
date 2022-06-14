@@ -25,7 +25,7 @@ h1, h3 {
     padding: 0 0 10px 0;
 }
 h2 {
-    padding: 0 0 15px 0;
+    padding: 7px 0 15px 0;
 }
 header.header {
     height: 300px;
@@ -55,7 +55,7 @@ a.header_menu__link:hover {
 }
 aside.aside {
     padding: 50px 20px;
-    max-width: 348px;
+    max-width: 300px;
     background-color: #cfefe3;
 }
 .about, .skills {
@@ -65,18 +65,21 @@ section#skills {
     display: flex;
     flex-direction: column;
 }
+section.projects img {
+    height: 210px;
+}
 progress {
     border: 1px solid #4c5859;
     max-width: 200px;
     height: 15px;
 }
 li.contact-item {
-    font-size: 24px;
+    font-size: 20px;
     padding: 0 0 15px 0;
     transition: font-size 2s;
 }
 li.contact-item:hover {
-    font-size: 28px;
+    font-size: 24px;
 }
 ul.footer_content {
     display: flex;
@@ -97,7 +100,9 @@ img {
 section.education p {
     padding: 0 0 13px;
 }
-
+section.projects, section.code {
+    padding: 30px 0;
+}
 pre {
     background-color: #efefef;
 }
