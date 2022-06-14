@@ -5,12 +5,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 
 <body>
-    <h1>Hello CV</h1>
-    <img src="img/comp.png" alt="I love comp">
+    <header class="header">
+        <div class="container header_wrap">
+            <div class="header_photo">
+                <img class="header_img" src="img/photo.jpg" alt="my_photo">
+            </div>
+            <div class="header_content">
+                <nav class="header_menu">
+                    <ul class="header_menu__list">
+                        <li class="header_menu__item">
+                            <a href="#about" class="header_menu__link">About</a>
+                        </li>
+                        <li class="header_menu__item">
+                            <a href="#skills" class="header_menu__link">Skills</a>
+                        </li>
+                        <li class="header_menu__item">
+                            <a href="#contacts" class="header_menu__link">Contacts</a>
+                        </li>
+                        <li class="header_menu__item">
+                            <a href="#education" class="header_menu__link">Education</a>
+                        </li>
+                        <li class="header_menu__item">
+                            <a href="#projects" class="header_menu__link">Projects</a>
+                        </li>
+                        <li class="header_menu__item">
+                            <a href="#code" class="header_menu__link">Code</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header_title">
+                    <h1>Anastasia Hlushko</h1>
+                    <h2>Front-End Developer</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container main_wrap">
+            <aside class="aside">
+                <section class="about" id="about">
+                    <h2>About me</h2>
+                    <p>I'm interested in programming. My goal get a job and to be a good programmer &#128578;</p>
+                </section>
+                <section class="skills" id="skills">
+                    <h2>Skills</h2>
+                    <label for="file">HTML</label>
+                    <progress id="file" value="90" max="100"> 90% </progress> <br>
+                    <label for="file1">CSS</label>
+                    <progress id="file1" value="70" max="100"> 70% </progress> <br>
+                    <label for="file2">JAVASCRIPT</label>
+                    <progress id="file2" value="30" max="100"> 30% </progress> <br>
+                    <label for="file3">GIT</label>
+                    <progress id="file3" value="30" max="100"> 30% </progress> <br>
+                    <label for="file4">FIGMA</label>
+                    <progress id="file4" value="30" max="100"> 30% </progress> <br>
+                </section>
+                <section class="contacts" id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="contact_list">
+                        <li class="contact-item">
+                            <a href="mailto:hlushko21@gmail.com" class="side__link" target="_blank">E-mail &#128386;</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://t.me/StasiaMore" class="side__link" target="_blank">Telegram:
+                                <br>
+                                @StasiaMore
+                            </a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://discord.com/" class="side__link" target="_blank">Discord:
+                                <br>
+                                Nastya(AnaMore21)#5227
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+            <div class="main_content">
+                <section class="education" id="education">
+                    <h2>Education</h2>
+                    <p>2022 - Started RS Pre-School course</p>
+                    <p>2017 - Level Up - HTML5, CSS3 and creating web sites with CMS WP</p>
+                    <p>2014 - Bachelor in Computer science - National Metallurgical Academy, Department of information
+                        technology and systems</p>
+                    <h3>Languages</h3>
+                    <p>English - A2</p>
+                    <p>Ukrainian, Russian - Native</p>
+                </section>
+                <section class="projects" id="projects">
+                    <h2>Projects</h2>
+                    <a href="https://github.com/AnaMore21" target="_blank">
+                        <img src="img/proj.jpg" alt="proj">
+                    </a>
+                </section>
+                <section class="code" id="code">
+                    <h2>Code examples</h2>
+                    <pre>
+                        <code>
+            function even_or_odd(number) {
+            let result = number % 2 == 0 ? "Even" : "Odd";
+            return result;
+            }
+                        </code>
+                    </pre>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer_content">
+                <li class="footer_item">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="img/rs_school_js.svg" alt="logo_rs">
+                    </a>
+                </li>
+                <li class="footer_item">
+                    <p>CREATED IN 2022</p>
+                </li>
+                <li class="footer_item">
+                    <a href="https://github.com/AnaMore21" target="_blank">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
