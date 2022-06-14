@@ -14,7 +14,7 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header_wrap">
             <div class="header_photo">
                 <img class="header_img" src="img/comp.png" alt="my_photo">
             </div>
@@ -49,7 +49,7 @@
         </div>
     </header>
     <main>
-        <div class="container">
+        <div class="container main_wrap">
             <aside class="aside">
                 <section class="about" id="about">
                     <h2>About me</h2>
@@ -58,11 +58,15 @@
                 <section class="skills" id="skills">
                     <h2>Skills</h2>
                     <label for="file">HTML</label>
-                    <progress id="file" value="90" max="100"> 90% </progress>
+                    <progress id="file" value="90" max="100"> 90% </progress> <br>
                     <label for="file1">CSS</label>
-                    <progress id="file1" value="70" max="100"> 70% </progress>
+                    <progress id="file1" value="70" max="100"> 70% </progress> <br>
                     <label for="file2">JAVASCRIPT</label>
-                    <progress id="file2" value="30" max="100"> 30% </progress>
+                    <progress id="file2" value="30" max="100"> 30% </progress> <br>
+                    <label for="file2">GIT</label>
+                    <progress id="file2" value="30" max="100"> 30% </progress> <br>
+                    <label for="file2">FIGMA</label>
+                    <progress id="file2" value="30" max="100"> 30% </progress> <br>
                 </section>
                 <section class="contacts" id="contacts">
                     <h2>Contacts</h2>
@@ -83,6 +87,9 @@
                     <p>2017 - Level Up - HTML5, CSS3 and creating web sites with CMS WP</p>
                     <p>2014 - Bachelor in Computer science - National Metallurgical Academy, Department of information
                         technology and systems</p>
+                    <h3>Languages</h3>
+                    <p>English - A2</p>
+                    <p>Ukrainian, Russian - Native</p>
                 </section>
                 <section class="projects" id="projects">
                     <h2>Projects</h2>
@@ -92,12 +99,14 @@
                 </section>
                 <section class="code" id="code">
                     <h2>Code examples</h2>
-                    <code>
-                        function even_or_odd(number) {
-                        let result = number % 2 == 0 ? "Even" : "Odd";
-                        return result;
-                        }
-                    </code>
+                    <pre>
+                        <code>
+            function even_or_odd(number) {
+            let result = number % 2 == 0 ? "Even" : "Odd";
+            return result;
+            }
+                        </code>
+                    </pre>
                 </section>
             </div>
         </div>
